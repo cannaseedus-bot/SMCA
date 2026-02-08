@@ -1,7 +1,8 @@
 {
-  "@registry": "collapse-geometry",
+  "@axiom": "collapse.geometry",
   "@version": "1.0.0",
-  "entries": [
+  "statement": "SMCA defines collapse geometry descriptors, not execution algorithms.",
+  "classes": [
     {
       "id": "linear.series",
       "meaning": "Term-by-term convergence"

@@ -1,0 +1,12 @@
+{
+  "@registry": "kernel-classes",
+  "@version": "1.0.0",
+  "entries": [
+    {
+      "@kernel": "binary_split",
+      "@collapse_class": "binary.split",
+      "@requires": ["balanced_tree", "deterministic_join"],
+      "@forbids": ["side_effects", "order_dependence"]
+    }
+  ]
+}
