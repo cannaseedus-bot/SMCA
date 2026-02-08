@@ -1,0 +1,15 @@
+{
+  "@geometry": "collapse-geometry/v1",
+  "@authority": "SMCA/1",
+  "@frozen": true,
+  "edges": [
+    "SOH",
+    "STX",
+    "SO",
+    "RS",
+    "SI",
+    "ETX",
+    "EOT"
+  ],
+  "kernel": "binary_split"
+}
