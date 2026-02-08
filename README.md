@@ -1,7 +1,7 @@
 # SMCA — Semantic Microcoded Architecture
 
 SMCA is the **root constitution** for sovereign microcoded systems. It defines **what kinds of machines may exist**, not how they run.
-
+<img src=https://github.com/cannaseedus-bot/SMCA/blob/main/SMCA_1.png>
 ## What SMCA is
 
 - A machine architecture specification
