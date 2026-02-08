@@ -1,36 +1,107 @@
-# SMCA-REF-1
-<img src=https://github.com/cannaseedus-bot/SMCA/blob/main/SMCA_1.png>
-This repository is the **canonical reference implementation** of:
+# SMCA — Semantic Microcoded Architecture
 
-- Collapse Geometry Registry
-- CM-1 Control Alphabet
-- Binary Split legality
-- SCXQ7 execution gating
-- Conformance verification
-- Public compliance signaling
+SMCA is the **root constitution** for sovereign microcoded systems. It defines **what kinds of machines may exist**, not how they run.
 
-## What this repo does
+## What SMCA is
 
-1. Builds a CM-1 verifier to WASM
-2. Verifies collapse geometry via CI
-3. Publishes immutable registry artifacts
-4. Anchors legality via hashes
-5. Generates deterministic compliance badges
+- A machine architecture specification
+- A semantic ISA (instruction *meaning*, not execution)
+- A collapse-based computational ontology
+- A role partitioning system for clusters
+- A lawful separation of imagination vs reality
 
-## What this repo does NOT do
+## What SMCA is not
 
-- Execute arithmetic
-- Compute π
-- Interpret semantics
-- Allow extensions
+- A runtime
+- A VM
+- A kernel
+- A programming language
+- A math system
+- A scheduler
+- An optimizer
 
-If CI passes, the implementation is lawful.
-If CI fails, the implementation is illegal.
+> **SMCA defines what kinds of machines may exist — not how they run.**
 
-This repository defines **execution law**, not software behavior.
+## Core primitives (locked)
 
-## Generated artifacts
+SMCA defines the following architectural layers and **names them only**:
 
-This repository does not store binary artifacts. Build the CM-1 verifier with `src/cm1/build.sh`
-to generate `wasm/cm1_verify.wasm` locally, then run `node conformance/run.js` to verify vectors.
-See `docs/BINARY_ARTIFACTS.md` for exact regeneration instructions and example CM-1 streams.
+| Layer | Meaning |
+| --- | --- |
+| MATRIX | Authoring / proposal space |
+| SCXQ2 | Semantic μ-op encoding |
+| SCXQ7 | Firmware + legality governor |
+| SCO/1 | Sovereign compute object |
+| CM-1 | Pre-semantic control gate |
+| IDB | Indexed causal memory |
+
+## Authority gradient (non-negotiable)
+
+```
+MATRIX (imagination)
+   ↓
+CM-1 (gate)
+   ↓
+SCXQ7 (law)
+   ↓
+SCXQ2 (microcode)
+   ↓
+SCO/1 (execution)
+   ↓
+IDB (memory)
+```
+
+Authority flows downward only. No layer may escalate authority upward, skip a layer, or collapse without law.
+
+## Collapse geometry (descriptors only)
+
+SMCA defines collapse geometry descriptors, not algorithms. See the canonical registry in `registry/collapse-geometry/v1.json`.
+
+## Kernel classification (shape only)
+
+SMCA tags kernels by shape and constraints, not behavior. See `schemas/kernel-tag.schema.json` and `registry/kernel-classes/v1.json`.
+
+## Cluster semantics (pure role law)
+
+SMCA defines cluster roles only. A cluster is a placement of a role, never a new authority. See `registry/cluster-roles/v1.json`.
+
+## IDB in SMCA
+
+IDB is append-only, hash-addressed, causally ordered, and externally verifiable. SMCA does not define storage, serialization, or indexing.
+
+## Repository layout (v1)
+
+```
+smca/
+├─ README.md
+├─ LICENSE
+├─ manifest.json
+│
+├─ axioms/
+│  ├─ architecture.json
+│  ├─ authority.json
+│  ├─ collapse-geometry.json
+│  ├─ cluster-roles.json
+│  └─ memory-law.json
+│
+├─ schemas/
+│  ├─ kernel-tag.schema.json
+│  ├─ collapse.schema.json
+│  ├─ cluster.schema.json
+│  └─ idb.schema.json
+│
+├─ registry/
+│  ├─ collapse-geometry/
+│  │  └─ v1.json
+│  ├─ kernel-classes/
+│  │  └─ v1.json
+│  └─ cluster-roles/
+│     └─ v1.json
+│
+└─ hashes/
+   └─ v1.manifest.hash
+```
+
+## Final SMCA law
+
+> **SMCA defines a sovereign microcoded machine in which imagination is external, execution is internal, and reality changes only by lawful collapse.**
