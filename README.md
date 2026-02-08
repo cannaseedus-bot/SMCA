@@ -1,5 +1,5 @@
 # SMCA-REF-1
-
+<img src=https://github.com/cannaseedus-bot/SMCA/blob/main/SMCA_1.png>
 This repository is the **canonical reference implementation** of:
 
 - Collapse Geometry Registry
